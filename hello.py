@@ -17,4 +17,5 @@ with open("/Users/sanachoudhry/Downloads/imdb_movies_1985to2022.json") as in_fil
                 break
 
 #calculate average rating
-sum(ratings) / len(ratings)
+x = sum(ratings) / len(ratings)
+print(x)
